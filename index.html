@@ -4,7 +4,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>CodePen - Credit Card Generator</title>
+	<title>Credit Card Generator</title>
 	<link rel="stylesheet" href="src/style.css">
 </head>
 
@@ -12,11 +12,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Share+Tech+Mono' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Signika:400' rel='stylesheet' type='text/css'>
 	<div class="card-holder">
-		<div class="card">
+		<div id='card' class="card">
 			<span id='bankName' class="title">Bank of Ireland</span>
 			<div class="bank-logo">
 				<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In  -->
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+				<svg id='bankLogo' version="1.1" xmlns="http://www.w3.org/2000/svg"
+					xmlns:xlink="http://www.w3.org/1999/xlink"
 					xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/" x="0px" y="0px" width="73.7px"
 					height="40.4px" viewBox="0 0 73.7 40.4" style="enable-background:new 0 0 73.7 40.4;"
 					xml:space="preserve">
@@ -58,7 +59,7 @@
 				<img class="mc"
 					src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MasterCard_logo.png/320px-MasterCard_logo.png">
 				<span class="holo-back"></span>
-				<span class="holo"></span>
+				<span id='holo' class="holo"></span>
 				<br>
 				<span id="cardNumber" class="emboss number">5467 5670 7623 0945</span><br><br>
 				<span class="small-type">Valid From&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;UNTIL END</span><br><br>
