@@ -5,5 +5,8 @@ Ther is also a python script to take a screenshot of 2000 random cards generated
 
 Ideal to create a credit card dataset.
 
+## Exemple
+![exemple of credit card generated](exemple-card.png)
+
 ## Credits
 *Based on a Pen from jamesdelaneyie. Original URL: [https://codepen.io/jamesdelaneyie/pen/dYVOgz](https://codepen.io/jamesdelaneyie/pen/dYVOgz).*
